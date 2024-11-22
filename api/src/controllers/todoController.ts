@@ -1,5 +1,4 @@
 import { Request, Response } from "express";
-import { v4 } from "uuid";
 import Database from "../data/db";
 
 const db  = new Database();
